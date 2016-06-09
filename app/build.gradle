@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 23
@@ -28,4 +29,6 @@ dependencies {
     provided 'com.f2prateek.dart:dart-processor:2.0.0'
     compile 'com.f2prateek.dart:henson:2.0.0'
     provided 'com.f2prateek.dart:henson-processor:2.0.0'
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
 }
