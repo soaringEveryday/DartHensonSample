@@ -42,5 +42,12 @@
         android:text="parcel send"
         android:id="@+id/btnParcel" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HensonNavigable"
+        android:id="@+id/btnHenson" />
+
+
 
 </LinearLayout>

@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick({
             R.id.btnExtra,
-            R.id.btnParcel
+            R.id.btnParcel,
+            R.id.btnHenson
     })
     void onClick(View view) {
         switch (view.getId()) {
@@ -53,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
                                 .user(user)
                                 .build()
                 );
+                break;
+            case R.id.btnHenson:
                 break;
         }
     }
