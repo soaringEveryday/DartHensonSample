@@ -39,8 +39,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bundle send"
-        android:id="@+id/btnBundle" />
+        android:text="parcel send"
+        android:id="@+id/btnParcel" />
 
 
 </LinearLayout>
