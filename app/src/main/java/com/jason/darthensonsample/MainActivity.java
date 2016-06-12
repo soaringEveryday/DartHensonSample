@@ -56,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
                 );
                 break;
             case R.id.btnHenson:
+                startActivity(
+                        Henson.with(this)
+                                .gotoAnotherActivity()
+                                .build()
+                );
                 break;
         }
     }
